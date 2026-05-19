@@ -1,0 +1,26 @@
+{
+  "name": "fashion-crawler",
+  "version": "1.0.0",
+  "description": "Chợ Tốt fashion product crawler for fashion_marketplace database",
+  "main": "src/crawler.js",
+  "type": "module",
+  "scripts": {
+    "test": "node src/crawler.js --limit 10 --test",
+    "crawl": "node src/crawler.js",
+    "setup": "node src/setup.js"
+  },
+  "keywords": ["crawler", "puppeteer", "fashion", "chotot"],
+  "author": "Tài",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^22.0.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "cloudinary": "^2.0.0",
+    "mysql2": "^3.9.0",
+    "dotenv": "^16.4.0",
+    "p-limit": "^5.0.0"
+  }
+}
